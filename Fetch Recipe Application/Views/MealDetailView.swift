@@ -10,7 +10,7 @@ import SwiftUI
 struct MealDetailView: View {
     let mealId: String
     
-    @State private var mealDetail: MealDetail?
+    @State var mealDetail: MealDetail?
     
     var body: some View {
         VStack {
@@ -49,7 +49,7 @@ struct MealDetailView: View {
         let meals: [MealDetail]
     }
     
-    private func fetchMealDetail() {
+    func fetchMealDetail() {
         guard let url = URL(string: "https://themealdb.com/api/json/v1/1/lookup.php?i=\(mealId)") else {
             return
         }

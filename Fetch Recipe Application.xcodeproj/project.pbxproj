@@ -18,6 +18,8 @@
 		707600DE2A52842F00538A26 /* MealDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707600DD2A52842F00538A26 /* MealDetailView.swift */; };
 		707600E12A5284D900538A26 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707600E02A5284D900538A26 /* Meal.swift */; };
 		707600EF2A537AA800538A26 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707600EE2A537AA800538A26 /* SearchBar.swift */; };
+		7082ABC02A5388D3007D0117 /* MealListViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7082ABBF2A5388D3007D0117 /* MealListViewTests.swift */; };
+		7082ABC22A5392BA007D0117 /* MealDetailViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7082ABC12A5392BA007D0117 /* MealDetailViewTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,8 @@
 		707600DD2A52842F00538A26 /* MealDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetailView.swift; sourceTree = "<group>"; };
 		707600E02A5284D900538A26 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 		707600EE2A537AA800538A26 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		7082ABBF2A5388D3007D0117 /* MealListViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealListViewTests.swift; sourceTree = "<group>"; };
+		7082ABC12A5392BA007D0117 /* MealDetailViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetailViewTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +127,8 @@
 			isa = PBXGroup;
 			children = (
 				707600C12A5282B800538A26 /* Fetch_Recipe_ApplicationTests.swift */,
+				7082ABBF2A5388D3007D0117 /* MealListViewTests.swift */,
+				7082ABC12A5392BA007D0117 /* MealDetailViewTests.swift */,
 			);
 			path = "Fetch Recipe ApplicationTests";
 			sourceTree = "<group>";
@@ -299,6 +305,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				707600C22A5282B800538A26 /* Fetch_Recipe_ApplicationTests.swift in Sources */,
+				7082ABC02A5388D3007D0117 /* MealListViewTests.swift in Sources */,
+				7082ABC22A5392BA007D0117 /* MealDetailViewTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

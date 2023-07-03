@@ -8,8 +8,8 @@
 import SwiftUI
 
 struct MealListView: View {
-    @State private var meals: [Meal] = []
-    @State private var searchText = ""
+    @State var meals: [Meal] = []
+    @State var searchText = ""
 
     var body: some View {
         VStack {
@@ -46,7 +46,7 @@ struct MealListView: View {
         let meals: [Meal]
     }
     
-    private func fetchMeals(completion: @escaping ([Meal]?) -> Void) {
+    func fetchMeals(completion: @escaping ([Meal]?) -> Void) {
         guard let url = URL(string: "https://themealdb.com/api/json/v1/1/filter.php?c=Dessert") else {
             completion(nil)
             return
@@ -74,7 +74,7 @@ struct MealListView: View {
         }.resume()
     }
     
-    private var filteredMeals: [Meal] {
+    var filteredMeals: [Meal] {
         if searchText.isEmpty {
             return meals
         } else {
