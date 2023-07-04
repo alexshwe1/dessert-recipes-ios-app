@@ -7,7 +7,6 @@
 
 import XCTest
 @testable import Fetch_Recipe_Application
-import SwiftUI
 
 class MealListViewTests: XCTestCase {
 

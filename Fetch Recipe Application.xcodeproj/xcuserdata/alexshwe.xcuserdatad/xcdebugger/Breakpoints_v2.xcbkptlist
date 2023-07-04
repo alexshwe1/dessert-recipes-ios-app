@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "9B546093-D070-4FC0-8B2A-104118AC659F"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A7A0C0C9-3507-49CC-9740-18161C9A6CE9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Fetch Recipe ApplicationTests/MealDetailViewTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "testFetchMealDetail_Success()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A7A0C0C9-3507-49CC-9740-18161C9A6CE9 - f14e8ffa11ef0cc5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Fetch_Recipe_ApplicationTests.MealDetailViewTests.testFetchMealDetail_Success() -&gt; ()"
+                  moduleName = "Fetch Recipe ApplicationTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alexshwe/Documents/Fetch%20Recipe%20Application/Fetch%20Recipe%20ApplicationTests/MealDetailViewTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  uuid = "A7A0C0C9-3507-49CC-9740-18161C9A6CE9 - f14e8ffa11ef0c87"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Fetch_Recipe_ApplicationTests.MealDetailViewTests.testFetchMealDetail_Success() -&gt; ()"
+                  moduleName = "Fetch Recipe ApplicationTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alexshwe/Documents/Fetch%20Recipe%20Application/Fetch%20Recipe%20ApplicationTests/MealDetailViewTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "2616">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
