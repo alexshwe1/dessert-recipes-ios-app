@@ -9,6 +9,8 @@ import XCTest
 @testable import Fetch_Recipe_Application
 
 final class MealDetailViewTests: XCTestCase {
+    
+    // TODO: these tests for detail view could definitely be better. Ran short on time and will revisit.
         
     func testFetchMealDetail_Failure() {
         // Given
