@@ -29,7 +29,7 @@ When a user selects a meal, they are taken to a detail view that includes:
 ![Screen Shot 2023-07-03 at 5 52 15 PM](https://github.com/alexshwe1/Dessert-Recipes-iOS-App/assets/71849221/4796bba7-b083-4864-83e9-5d4cb5ebe178)
 
 ## Testing
-Unit tests are located in ```/Fetch Recipe ApplicationTests```. Commit's to main trigger an automatic build, running the tests with GitHub Actions.
+Unit tests are located in ```/Fetch Recipe ApplicationTests```.
 
 ## TODO's
 Build out unit tests to better test functionality and edge cases.
